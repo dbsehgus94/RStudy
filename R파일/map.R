@@ -3,7 +3,7 @@ library(devtools)
 install_github("dkahle/ggmap")
 library(ggmap)
 
-googleAPIkey = "AIzaSyAeIOe2iQulAU5IxEPnW2o032hQkCZDfN4"
+googleAPIkey = ""
 # Seoul의 위치 정보를 가져온 후 gg_seoul 변수에 할당
 register_google(googleAPIkey) # Google API key 인증
 gg_seoul <- get_googlemap("seoul", maptype = "hybrid")
